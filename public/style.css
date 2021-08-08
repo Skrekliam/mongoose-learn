@@ -1,0 +1,41 @@
+body{
+    background-color: darkkhaki;
+}
+.newButton{
+    border: 1px solid darkcyan;
+    padding: 10px;
+    background-color: rgb(105, 136, 52);
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.newButton:visited, .newButton:hover, .newButton:link{
+    color:#fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.blog {
+  border: 1px solid darkcyan;
+  width: 450px;
+  padding: 25px;
+  margin: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.header{
+    padding: 5px;
+    text-transform: capitalize;
+    background-color: lightgray;
+}
+.snippet{
+    border-bottom: 1px solid gray;
+}
+.time{
+    color: gray;
+}
+a.url:active, a.url:visited,a.url{
+    text-decoration: none;
+    color:#222;
+
+}

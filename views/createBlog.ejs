@@ -1,0 +1,40 @@
+<%- include('header') %>
+    <style>
+        body {
+            background-color: darkkhaki;
+            font-size: 25px;
+        }
+
+        form {
+
+            border: 1px solid darkcyan;
+            width: 450px;
+            padding: 25px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        input,
+        button {
+            padding: 10px;
+            font-size: 15px;
+            margin-top: 3px;
+        }
+    </style>
+
+    <body>
+        <form action="/blogs/create" method="POST">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required>
+            <label for="snippet">Snippet</label>
+            <input type="text" id="snippet" name="snippet" required>
+            <label for="body">Body</label>
+            <input type="text" id="body" name="body" required>
+            <button>Submit</button>
+        </form>
+    </body>
+
+    </html>
